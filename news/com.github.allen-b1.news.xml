@@ -1,0 +1,14 @@
+<package>
+    <dependencies>libgtk-3-0 libwebkit2gtk-4.0-dev libgranite2 libxml2</dependencies>
+    <file>
+        <from></from>
+        <to>/usr/local/bin/com.github.allen-b1.news</to>
+    </file>
+    <file>
+        <from>https://raw.githubusercontent.com/Allen-B1/news/master/data/com.github.allen-b1.news.desktop</from>
+        <to>/usr/local/share/applications/com.github.allen-b1.news.desktop</to>
+    </file>
+        <from>https://raw.githubusercontent.com/Allen-B1/news/master/data/com.github.allen-b1.news.svg</from>
+        <to>/usr/local/share/icons/hicolor/128x128/apps/com.github.allen-b1.news.svg</to>
+    </file>
+</package>
